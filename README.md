@@ -113,4 +113,4 @@ curl "https://api.the-api.url/v1/account"
 
 ### Author: [Fernando Domínguez](https://fernandominguez.es)
 
-### License: [MIT](https://github.com/fernandominguez/nodejs-rest-api-boilerplate#license)
+### License: [MIT](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/blob/main/LICENSE)
