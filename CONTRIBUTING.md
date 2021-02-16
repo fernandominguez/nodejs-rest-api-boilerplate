@@ -6,13 +6,15 @@ Not sure where to start? Check out the currently filed issues to see if there's 
 
 Please ensure first that someone is not already working on an issue. If the issue seems stale or inactive and you want to take it over, get in touch with fernandominguez, the assigned person (check the comments on the issue for whom), or simply comment on the issue asking for status.
 
+Please use the `develop` branch for your work on this project. Feature and bug branches must be merged back to the `develop` branch.
+
 ## Feature requests
 
-The best thing to do here is to file an issue if there already isn't one. If it's something fairly obviously needed (in your opinion) and you are happy to code it, feel free to open a pull request without filing an issue first.
+The best thing to do here is to file an issue if there already isn't one. If it's something fairly obviously needed (in your opinion) and you are happy to code it, feel free to open a pull request without filing an issue first. You can open a new feature branch if you want, but please use this prefix `feature/`, for example `feature/fix-something`.
 
 ## Bugs / Issues
 
-Run a quick look through the currently open and closed issues and pull requests to make sure it hasn't already been reported or closed. If it's unique, feel free to open an issue.
+Run a quick look through the currently open and closed issues and pull requests to make sure it hasn't already been reported or closed. If it's unique, feel free to open an issue. You can open a new bug branch if you want, but please use this prefix `bug/`, for example `bug/fix-something`.
 
 ## Code contribution workflow
 
