@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  app_server:
+    image: node:lts
+    user: node
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=test
+    volumes:
+      - ./:/home/node/app:delegated
+    ports:
+      - 8000:8000
+      - 9229:9229
+    depends_on:
+      - db_server
+    links:
+      - db_server
+    command: npm run test
+
+  db_server:
+    image: mongo:latest
+    env_file:
+      - .env.test
+    volumes:
+      - ./src/config/db/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+      - ./src/config/db/.dbshell:/home/mongodb/.dbshell
+    ports:
+      - 27017:27017
