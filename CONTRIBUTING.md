@@ -41,3 +41,7 @@ Run a quick look through the currently open and closed issues and pull requests 
 9. Push up your new branch to your forked repo.
 
 10. In GitHub, send a pull request to `nodejs-rest-api-boilerplate:master`. Include an explanation of what you did, and reference any issues if they are related.
+
+## Code of conduct
+
+Please read the [code of conduct](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/blob/main/CODE_OF_CONDUCT.md) in the interest of fostering an open and welcoming environment
