@@ -1,6 +1,6 @@
 # Node.js RESTful API Boilerplate
 
-![API Test CI](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/workflows/API%20Test%20CI/badge.svg)
+![API Test CI](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/workflows/API%20Tests/badge.svg)
 
 This is a boilerplate for starting a Node.js RESTful API project.
 
