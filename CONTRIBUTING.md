@@ -44,4 +44,8 @@ Run a quick look through the currently open and closed issues and pull requests 
 
 ## Code of conduct
 
-Please read the [code of conduct](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/blob/main/CODE_OF_CONDUCT.md) in the interest of fostering an open and welcoming environment
+Please read the [code of conduct](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/blob/main/CODE_OF_CONDUCT.md) in the interest of fostering an open and welcoming environment.
+
+## Financial contributions
+
+If you think this project is interesting enough, and want to help me by donating some funds to me, [you can do it here](https://www.paypal.me/fernandominguez). Thank you very much for your support!
