@@ -1,31 +1,30 @@
 # Node.js RESTful API Boilerplate
 
-![API Test CI](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/workflows/API%20Tests/badge.svg)
+![API Tests](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/workflows/API%20Tests/badge.svg)
 ![CodeQL](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/workflows/CodeQL/badge.svg)
 
 This is a boilerplate for starting a Node.js RESTful API project.
 
-## Installation
+**Want to [contribute](https://github.com/fernandominguez/nodejs-rest-api-boilerplate/blob/master/CONTRIBUTING.md)?**
 
-Just clone the repository using:
+## How to install
 
-```shell
-git clone https://github.com/fernandominguez/nodejs-rest-api-boilerplate.git
-```
+1. Install Node.js from [nodejs.org](http://nodejs.org/).
+2. Just clone the repository using `git clone https://github.com/fernandominguez/nodejs-rest-api-boilerplate.git`
+3. Run `npm install` in your favourite shell.
 
-## Running
+## Testing
 
-For running unit tests on your local machine, just run:
+- For running unit tests on your local machine, just run `docker-compose up --build`.
+- For debugging on your local machine, just run `docker-compose -f docker-compose.dev.yml up --build`
 
-```shell
-docker-compose up --build
-```
+This boilerplate is ready to be tested with the [Github Actions](https://github.com/features/actions) workflows.
+You only have to do a `git push` to your `main` branch and you will see the result in this file header banners.
 
-For debugging on your local machine, just run:
+There are two workflows:
 
-```shell
-docker-compose -f docker-compose.dev.yml up --build
-```
+1. API Tests: Performs the CI jobs and test if the changes fullfill the existing unit tests.
+2. CodeQL: Checks the repository's source code to find security vulnerabilities related to the coding language used (JavaScript).
 
 ## Authentication
 
